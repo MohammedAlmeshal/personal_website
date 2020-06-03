@@ -128,10 +128,18 @@ html, body {
     
   }
 
-  .fotter img {
-      padding:  5px 20px;
-      width: 35px;
 
+  
+
+  svg{
+     fill:white;
+     padding:  5px 20px;
+      z-index: 3;
+  }
+
+  #mail{
+   transform: translateY(3.5px);
+   
   }
 
 
