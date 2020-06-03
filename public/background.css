@@ -72,39 +72,50 @@ html, body {
  bottom: 0;
  max-width:100%;
  max-height: 100%;
+ 
+ 
 
- -webkit-box-flex: 1 1 auto;
- -moz-box-flex: 1 1 auto;
- -webkit-flex: 1 1 auto;
- -ms-flex: 1 1 auto;
- flex: 1 1 auto;
     
     display: flex;
     
      justify-content: center;
-     align-content: center;
-     flex-wrap: wrap;
+   
+    
+    
+     
+    
 
  font-family: 'Manrope', sans-serif;
    
   }
+
   
   .name{ 
-     
-      margin-left: 20px;
+
+      margin: 0;
+ 
       z-index: 2;
-      
+     position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       
       color: white;
       font-size: 2.5em;
     
       text-shadow: 1px 1px 10px rgb(80, 80, 80);
+
      
   }
+
+
+
+  
 
   .fotter{
       position: absolute;
       bottom: 0;
+  
         
         min-width: 20%;
       z-index: 2;
@@ -116,7 +127,7 @@ html, body {
   }
 
   .fotter img {
-      margin:  5px 20px;
+      padding:  5px 20px;
       width: 35px;
 
   }
