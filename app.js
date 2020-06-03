@@ -8,7 +8,7 @@ app.use(express.static(__dirname + "/public"));
 
 
 app.get("/" , (req,res) =>{
-    res.send("home");
+    res.render("home");
     
 })
 
